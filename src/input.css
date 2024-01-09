@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base{
+    h1, h2, h3, h4, h5, h6 {
+         @apply font-bold;
+    }
+
+    input,textarea{
+        @apply bg-black border-gray-700;
+    }
+    .input-focus{
+        @apply outline-none focus:ring-1 focus:ring-green-800 focus:ring-inset transition
+    }
+}
+
